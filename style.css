@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-G3-Architects-links{
+    display: flex;
+    align-items: center;  
+    /* margin: 0 auto; */
+    /* border: 2px solid red; */
+}
+
+.G3-Architects {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.G3-Architects-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-left: auto;
+    list-style: none;
+}
+
+.links {
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 1.13rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .banner {
+    margin: 0 auto;
+    text-align: center;
+} */
+
+.banner h3 {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 3.75rem;
+    font-weight: 700;
+    /* border: 2px solid rebeccapurple; */
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.banner p {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 868px;
+    height: 52px;
+    text-align: center;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.banner-btn {
+    width: 180px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 144, 14);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    margin-left: 40px;
+    width: 1240px;
+    height: 700px;
+}
